@@ -1,0 +1,21 @@
+@import "vars";
+
+.news__cards{
+  display: flex;
+  gap: 1.25rem;
+  .desc{
+    padding: 1rem 0;
+    text-align: center;
+  }
+}
+.news__title{
+  font-size: 1.25rem;
+  line-height: 160%;
+  text-align: center;
+}
+.date{
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0.938rem 0;
+}

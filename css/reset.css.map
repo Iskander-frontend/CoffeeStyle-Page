@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,yBAA0B;;EACxB,cAAc;IACZ,cAAc,EAAE,MAAM",
+"sources": ["../%23source/SCSS/media.scss"],
+"names": [],
+"file": "reset.css"
+}

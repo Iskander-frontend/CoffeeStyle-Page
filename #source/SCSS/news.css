@@ -1,0 +1,23 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/news\.scss}line{font-family:\000033}}
+.news__cards {
+  display: flex;
+  gap: 1.25rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/news\.scss}line{font-family:\000036}}
+  .news__cards .desc {
+    padding: 1rem 0;
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/news\.scss}line{font-family:\0000311}}
+.news__title {
+  font-size: 1.25rem;
+  line-height: 160%;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/news\.scss}line{font-family:\0000316}}
+.date {
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0.938rem 0; }
+
+/*# sourceMappingURL=news.css.map */

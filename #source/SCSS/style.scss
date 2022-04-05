@@ -1,0 +1,43 @@
+@import "vars";
+@import "header";
+@import "story";
+@import "product";
+@import "offer";
+@import "news";
+@import "contact";
+@import "footer";
+@import "media";
+
+body{
+  font-family: 'Karla', sans-serif;
+  font-size: 0.75rem;
+  &.active{
+    overflow: hidden;
+  }
+}
+.desc{
+  line-height: 175%;
+  font-size: 1rem;
+  color: $trans-body-color;
+}
+.btn{
+  line-height: 150%;
+  letter-spacing: 2px;
+  background: $white;
+  font-weight: 700;
+  color: $body-color;
+  text-transform: uppercase;
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+  transition: ease 0.3s;
+  &:hover{
+    background: $body-color;
+    color: $white;
+    outline: 1px solid $white;
+  }
+}
+.interruption{
+  min-height: 21.25rem;
+  background: url("../images/section-bg.jpg") no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,40 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/story\.scss}line{font-family:\000034}}
+.story {
+  margin-top: 7.5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/story\.scss}line{font-family:\000037}}
+.story__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 40.625rem;
+  margin: 0 auto;
+  text-align: center;
+  gap: 1.25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/story\.scss}line{font-family:\0000316}}
+.story__title {
+  line-height: 140%;
+  font-size: 1.75rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/story\.scss}line{font-family:\0000320}}
+.story__btn {
+  color: #A25F4B;
+  line-height: 185%;
+  font-size: 1rem;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/story\.scss}line{font-family:\0000325}}
+  .story__btn:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background: #A25F4B;
+    bottom: -5px;
+    left: 0;
+    transition: ease 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/story\.scss}line{font-family:\0000335}}
+  .story__btn:hover:after {
+    width: 100%; }
+
+/*# sourceMappingURL=story.css.map */

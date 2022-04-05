@@ -1,0 +1,47 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/offer\.scss}line{font-family:\000033}}
+.offer__title {
+  font-size: 2.25rem;
+  line-height: 140%;
+  margin: 0.938rem 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/offer\.scss}line{font-family:\000038}}
+.offer__inner {
+  display: flex;
+  justify-content: space-between; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/offer\.scss}line{font-family:\0000312}}
+.offer__images {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/offer\.scss}line{font-family:\0000317}}
+.offer__image-second {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/offer\.scss}line{font-family:\0000322}}
+.offer__box {
+  max-width: 21.875rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/offer\.scss}line{font-family:\0000328}}
+  .offer__box .section__heading {
+    padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/offer\.scss}line{font-family:\0000331}}
+  .offer__box .btn:hover {
+    background: #fff;
+    color: #1D1F2E;
+    outline: 1px solid #1D1F2E; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/offer\.scss}line{font-family:\0000336}}
+  .offer__box .desc {
+    padding: 0.938rem 0 1.875rem 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/offer\.scss}line{font-family:\0000339}}
+  .offer__box .btn {
+    color: #fff;
+    background: #1D1F2E; }
+
+/*# sourceMappingURL=offer.css.map */

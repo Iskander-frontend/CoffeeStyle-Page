@@ -1,0 +1,52 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/contact\.scss}line{font-family:\000033}}
+.contact {
+  background: #1D1F2E;
+  color: #fff;
+  padding: 8rem 0;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/contact\.scss}line{font-family:\000038}}
+  .contact .section__heading {
+    padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/contact\.scss}line{font-family:\0000312}}
+.contact__form {
+  display: flex;
+  justify-content: center;
+  gap: 0.625rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/contact\.scss}line{font-family:\0000317}}
+.contact__title {
+  font-size: 2.25rem;
+  line-height: 140%;
+  padding: 0.938rem 0 1.563rem 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/contact\.scss}line{font-family:\0000322}}
+.section__heading {
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 6.25rem;
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/contact\.scss}line{font-family:\0000330}}
+.form__input {
+  background: transparent;
+  border: 1px solid #2F303E;
+  padding: 1.125rem;
+  color: #fff;
+  min-width: 21.875rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/contact\.scss}line{font-family:\0000336}}
+  .form__input:focus, .form__input:active {
+    outline: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/contact\.scss}line{font-family:\0000340}}
+  .form__input::placeholder {
+    color: rgba(255, 255, 255, 0.5); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/contact\.scss}line{font-family:\0000344}}
+.form__submit .btn {
+  font-family: 'Karla', sans-serif;
+  border: none;
+  padding: 1.125rem 1.5rem; }
+
+/*# sourceMappingURL=contact.css.map */

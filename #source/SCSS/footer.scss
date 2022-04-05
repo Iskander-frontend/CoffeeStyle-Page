@@ -1,0 +1,28 @@
+@import "vars";
+
+.footer{
+  font-size: 0.875rem;
+  color: $trans-body-color;
+  padding:6.25rem 0 3.125rem 0;
+}
+.footer__inner{
+  display: flex;
+  justify-content: space-between;
+}
+.footer__box{
+  max-width: 15.625rem;
+}
+.footer__lists{
+  display: flex;
+  gap: 5rem;
+}
+.footer__title{
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  line-height: 150%;
+  color: $body-color;
+  padding-bottom: 1.5rem;
+}
+.footer__item{
+  padding-bottom: 0.625rem;
+}

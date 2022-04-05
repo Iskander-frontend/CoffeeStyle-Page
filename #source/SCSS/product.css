@@ -1,0 +1,63 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/product\.scss}line{font-family:\000034}}
+.featured__box {
+  display: flex;
+  justify-content: space-between; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/product\.scss}line{font-family:\000038}}
+.featured__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0.938rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/product\.scss}line{font-family:\0000313}}
+  .featured__card img {
+    max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/product\.scss}line{font-family:\0000317}}
+.product__name {
+  font-size: 1.25rem;
+  line-height: 150%;
+  margin-top: 2.188rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/product\.scss}line{font-family:\0000322}}
+.product__price {
+  font-size: 1rem;
+  line-height: 175%;
+  color: rgba(29, 31, 46, 0.7); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/product\.scss}line{font-family:\0000326}}
+  .product__price, .product__price .product__price {
+    cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/product\.scss}line{font-family:\0000330}}
+.product__desc {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/product\.scss}line{font-family:\0000335}}
+.sale {
+  color: #A25F4B;
+  font-size: 1.25rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/product\.scss}line{font-family:\0000339}}
+.line {
+  text-decoration: line-through;
+  font-size: 1rem;
+  cursor: default;
+  color: rgba(29, 31, 46, 0.4); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/product\.scss}line{font-family:\0000345}}
+.product__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3.125rem 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/product\.scss}line{font-family:\0000351}}
+.product__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0.938rem; }
+
+/*# sourceMappingURL=product.css.map */

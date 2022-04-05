@@ -1,0 +1,48 @@
+@import "vars";
+
+.contact{
+  background: $body-color;
+  color: $white;
+  padding: 8rem 0;
+  text-align: center;
+  .section__heading{
+    padding: 0;
+  }
+}
+.contact__form{
+  display: flex;
+  justify-content: center;
+  gap: 0.625rem;
+}
+.contact__title{
+  font-size: 2.25rem;
+  line-height: 140%;
+  padding: 0.938rem 0 1.563rem 0;
+}
+.section__heading{
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 6.25rem;
+  position: relative;
+}
+.form__input{
+  background: transparent;
+  border: 1px solid #2F303E;
+  padding: 1.125rem;
+  color: $white;
+  min-width: 21.875rem;
+  &:focus,
+  &:active{
+    outline: none;
+  }
+  &::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+.form__submit .btn{
+  font-family: 'Karla', sans-serif;
+  border: none;
+  padding: 1.125rem 1.5rem;
+}

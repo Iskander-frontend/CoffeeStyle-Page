@@ -1,0 +1,129 @@
+@import "vars";
+
+.header__nav{
+  display: flex;
+  align-items: center;
+  padding: 1.875rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #fff;
+  z-index: 10;
+  border-bottom: 1px solid #cfcfcf;
+  justify-content: space-between;
+}
+.header__menu{
+  display: flex;
+  gap: 1.875rem;
+}
+.header__link{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 150%;
+  position: relative;
+  &:after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background: $body-color;
+    bottom: -5px;
+    left: 0;
+    transition: ease 0.3s;
+  }
+  &:hover:after{
+    width: 100%;
+  }
+
+}
+.counter{
+  padding: 0.5rem 1rem;
+  background: $body-color;
+  color: $white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.hamburger{
+  display: none;
+  position: relative;
+  width: 1.875rem;
+  height: 1.25rem;
+}
+.hamburger.active{
+  overflow: visible;
+}
+.hamburger:before,
+.hamburger:after{
+  content: "";
+  background: $body-color;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  transition: all 0.3s;
+}
+.hamburger span{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  top: 9px;
+  transition: all 0.3s;
+  background: $body-color;
+}
+.hamburger:before{
+  top: 0;
+}
+.hamburger:after{
+  bottom: 0;
+}
+.hamburger.active:before{
+  transform: rotate(45deg);
+  top: 9px;
+}
+.hamburger.active:after{
+  transform: rotate(-45deg);
+  bottom: 9px;
+}
+.hamburger.active span{
+  transform: scale(0);
+}
+.cart__btn{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: transparent;
+  border: none;
+}
+.cart__link{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.header__box{
+  color: $white;
+  background: url("../images/header-bg.jpg") bottom center no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 9.375rem 0;
+  .desc{
+    margin-bottom: 50px;
+  }
+}
+.header__title{
+  font-size: 2.875rem;
+  margin: 0.625rem;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  gap: 6.25rem 0;
+}
+.container{
+  max-width: 62.5rem;
+  margin: 0 auto;
+  padding: 0 1.875rem;
+  position: relative;
+}
