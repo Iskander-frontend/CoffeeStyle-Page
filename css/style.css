@@ -531,7 +531,16 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\00003123}}
   .contact__form {
     flex-direction: column;
-    gap: 1rem; } }
+    gap: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\00003127}}
+  .footer__title {
+    font-size: 1.25rem;
+    padding-bottom: 0.5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\00003131}}
+  .footer__link {
+    font-size: 1rem; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000311}}
 body {
   font-family: 'Karla', sans-serif;
@@ -568,5 +577,35 @@ body {
   min-height: 21.25rem;
   background: url("../images/section-bg.jpg") no-repeat;
   background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000344}}
+.popup {
+  opacity: 0;
+  background: #1D1F2E;
+  max-width: 25rem;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #fff;
+  transition: 0.5s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000357}}
+  .popup.active {
+    opacity: 1;
+    transform: translateY(-30%); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000362}}
+.popup__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000367}}
+  .popup__body .section__heading {
+    color: #fff;
+    padding: 0; }
 
 /*# sourceMappingURL=style.css.map */
