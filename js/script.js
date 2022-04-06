@@ -17,6 +17,7 @@ for (let index = 0; index < menuItem.length; index++){
     menuItem[index].addEventListener('click', function () {
         menu.classList.remove('active')
         menuBtn.classList.remove('active')
+        body.classList.remove('active')
     })
 }
 
