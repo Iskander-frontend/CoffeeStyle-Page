@@ -1,7 +1,7 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/header\.scss}line{font-family:\000033}}
 .header__nav {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   padding: 1.875rem;
   position: fixed;
   top: 0;

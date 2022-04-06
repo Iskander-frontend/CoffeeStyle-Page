@@ -44,7 +44,7 @@
     color: rgba(255, 255, 255, 0.5); }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/contact\.scss}line{font-family:\0000344}}
-.form__submit .btn {
+.form__submit {
   font-family: 'Karla', sans-serif;
   border: none;
   padding: 1.125rem 1.5rem; }

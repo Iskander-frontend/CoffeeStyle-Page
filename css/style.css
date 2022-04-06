@@ -1,7 +1,7 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/header\.scss}line{font-family:\000033}}
 .header__nav {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   padding: 1.875rem;
   position: fixed;
   top: 0;
@@ -296,16 +296,14 @@
   gap: 1.25rem; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/news\.scss}line{font-family:\000036}}
   .news__cards .desc {
-    padding: 1rem 0;
-    text-align: center; }
+    padding: 1rem 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/news\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/news\.scss}line{font-family:\0000310}}
 .news__title {
   font-size: 1.25rem;
-  line-height: 160%;
-  text-align: center; }
+  line-height: 160%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/news\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/news\.scss}line{font-family:\0000314}}
 .date {
   line-height: 150%;
   letter-spacing: 2px;
@@ -358,7 +356,7 @@
     color: rgba(255, 255, 255, 0.5); }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/contact\.scss}line{font-family:\0000344}}
-.form__submit .btn {
+.form__submit {
   font-family: 'Karla', sans-serif;
   border: none;
   padding: 1.125rem 1.5rem; }
@@ -491,71 +489,93 @@
   .offer {
     margin-top: 3.125rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\0000391}}
+  .news__card .desc, .news__card .news__title {
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\0000395}}
   .form__input {
     min-width: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\0000398}}
   .footer__inner {
     flex-direction: column;
     gap: 2rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\00003102}}
   .footer__lists {
     justify-content: space-between; } }
 @media (max-width: 576px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\00003107}}
   body {
     font-size: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\00003110}}
   .offer__images {
     flex-direction: column; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\00003112}}
     .offer__images .offer__image-second {
       gap: 2rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\00003116}}
   .news__cards {
     gap: 1.875rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\00003119}}
   .footer__lists {
     flex-direction: column;
     gap: 2rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\00003123}}
   .footer {
     padding: 3.125rem 0 1.563rem 0; } }
 @media (max-width: 425px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\00003128}}
   .contact__form {
     flex-direction: column;
     gap: 1rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\00003132}}
   .footer__title {
     font-size: 1.25rem;
     padding-bottom: 0.5rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/media\.scss}line{font-family:\00003136}}
   .footer__link {
     font-size: 1rem; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/404\.scss}line{font-family:\000032}}
+h1 {
+  font-size: 10rem;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/404\.scss}line{font-family:\000036}}
+.error__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000312}}
+html {
+  scroll-behavior: smooth; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000315}}
 body {
   font-family: 'Karla', sans-serif;
   font-size: 0.75rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000318}}
   body.active {
     overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000322}}
 .desc {
   line-height: 175%;
   font-size: 1rem;
   color: rgba(29, 31, 46, 0.4); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000327}}
 .btn {
   line-height: 150%;
   letter-spacing: 2px;
@@ -566,21 +586,22 @@ body {
   padding: 0.5rem 1.5rem;
   text-align: center;
   transition: ease 0.3s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000337}}
   .btn:hover {
     background: #1D1F2E;
     color: #fff;
     outline: 1px solid #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000343}}
 .interruption {
   min-height: 21.25rem;
   background: url("../images/section-bg.jpg") no-repeat;
   background-size: cover; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000348}}
 .popup {
   opacity: 0;
+  visibility: hidden;
   background: #1D1F2E;
   max-width: 25rem;
   margin: 0 auto;
@@ -592,18 +613,19 @@ body {
   overflow: hidden;
   border: 1px solid #fff;
   transition: 0.5s ease; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000362}}
   .popup.active {
     opacity: 1;
+    visibility: visible;
     transform: translateY(-30%); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000368}}
 .popup__body {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 1rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Iskander\/WebstormProjects\/CoffeeStyle\/\%23source\/SCSS\/style\.scss}line{font-family:\0000373}}
   .popup__body .section__heading {
     color: #fff;
     padding: 0; }

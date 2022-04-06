@@ -7,7 +7,11 @@
 @import "contact";
 @import "footer";
 @import "media";
+@import "404";
 
+html{
+  scroll-behavior: smooth;
+}
 body{
   font-family: 'Karla', sans-serif;
   font-size: 0.75rem;
@@ -43,6 +47,7 @@ body{
 }
 .popup{
   opacity: 0;
+  visibility: hidden;
   background: $body-color;
   max-width: 25rem;
   margin: 0 auto;
@@ -56,6 +61,7 @@ body{
   transition:  0.5s ease;
   &.active{
     opacity: 1;
+    visibility: visible;
     transform: translateY(-30%);
   }
 }
